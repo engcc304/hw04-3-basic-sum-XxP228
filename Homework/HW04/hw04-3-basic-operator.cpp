@@ -13,3 +13,18 @@
         Answer = 6
 */
 #include <stdio.h>
+int main() {
+    float a = 0 ;
+    float b = 0 ;
+    float c = 0 ;
+
+    printf("Enter num1 : ");
+    scanf("%f", &a);
+    printf("Enter num2 : ");
+    scanf("%f", &b);
+    printf("Enter num3 : ");
+    scanf("%f", &c);
+
+    printf("Answer = %f", a + b + c);
+    return 0 ;
+}
